@@ -1,4 +1,4 @@
-package com.mirat.hw;
+package com.mirat.lesson.hw;;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
