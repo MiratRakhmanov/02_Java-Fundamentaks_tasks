@@ -6,22 +6,22 @@ import java.util.Random;
 public class HomeWork3 {
 
     public static void main(String[] args) {
-        task_01();
-        task_02(2, 1);
-        task_03();
-        task_04(6, 5);
-        task_05(4, 4);
-        task_06(6, 6);
-        task_07(6, 6);
-        task_08(6, 6);
-        task_09(6, 6);
-        task_10();
-        task_11();
-        task_12();
+        task01();
+        task02(2, 1);
+        task03();
+        task04(6, 5);
+        task05(4, 4);
+        task06(6, 6);
+        task07(6, 6);
+        task08(6, 6);
+        task09(6, 6);
+        task10();
+        task11();
+        task12();
     }
 
     //Task_01
-    public static void task_01() {
+    public static void task01() {
         System.out.println("Task_01:");
         int[][] set = {{1, 2, 3, 4, 5}, {6, 7, 8, 9, 10}, {11, 12, 13, 14, 15}, {16, 17, 18, 19, 20}, {21, 22, 23, 24, 25}};
         for (int i = 0; i < set.length; i++) {
@@ -32,7 +32,7 @@ public class HomeWork3 {
     }
 
     //Task_02
-    public static void task_02(int row, int column) {
+    public static void task02(int row, int column) {
         System.out.println("Task_02:");
         int[][] set = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         System.out.println(set[row][column]);
@@ -40,7 +40,7 @@ public class HomeWork3 {
     }
 
     //Task_03
-    public static void task_03() {
+    public static void task03() {
         System.out.println("Task_03:");
         int[][] set = {{1, 2, 3, 4, 5, 6}, {7, 8, 9}, {10, 11, 12, 13}, {14, 15, 16, 17, 18}};
         for (int j = 0; j < set.length; j++) {
@@ -60,7 +60,7 @@ public class HomeWork3 {
     }
 
     //Task_04
-    public static void task_04(int row, int column) {
+    public static void task04(int row, int column) {
         System.out.println("Task_04:");
         int[][] set = new int[row][column];
         int count = 1;
@@ -80,7 +80,7 @@ public class HomeWork3 {
     }
 
     //Task_05
-    public static void task_05(int row, int column) {
+    public static void task05(int row, int column) {
         System.out.println("Task_05:");
         int[][] set = new int[row][column];
         int count = 1;
@@ -92,7 +92,7 @@ public class HomeWork3 {
     }
 
     //Task_06
-    public static void task_06(int row, int column) {
+    public static void task06(int row, int column) {
         System.out.println("Task_06:");
         int[][] set = new int[row][column];
         for(int i = 0; i < set.length; i++) {
@@ -110,7 +110,7 @@ public class HomeWork3 {
     }
 
     //Task_07
-    public static void task_07(int row, int column) {
+    public static void task07(int row, int column) {
         System.out.println("Task_07:");
         int[][] set = new int[row][column];
         int count = 0;
@@ -127,7 +127,7 @@ public class HomeWork3 {
     }
 
     //Task_08
-    public static void task_08(int row, int column) {
+    public static void task08(int row, int column) {
         System.out.println("Task_08:");
         int[][] set = new int[row][column];
         for(int i = 0; i < set.length; i++) {
@@ -141,7 +141,7 @@ public class HomeWork3 {
     }
 
     //Task_09
-    public static void task_09(int row, int column) {
+    public static void task09(int row, int column) {
         System.out.println("Task_09:");
         int[][] set = new int[row][column];
         int l = row / 2;
@@ -159,7 +159,7 @@ public class HomeWork3 {
     }
 
     //Task_10
-    public static void task_10() {
+    public static void task10() {
         System.out.println("Task_10:");
         int[][] set = {{1,2,3},{4,-5,6},{7,8,-9}};
         int count = 0;
@@ -174,7 +174,7 @@ public class HomeWork3 {
     }
 
     //Task_11
-    public static void task_11() {
+    public static void task11() {
         System.out.println("Task_11:");
         int[][] set = new int[10][20];
         System.out.println(set.length);
@@ -198,7 +198,7 @@ public class HomeWork3 {
     }
 
     //Task_12
-    public static void task_12() {
+    public static void task12() {
         System.out.println("Task_12:");
         Random random = new Random();
         int row = random.nextInt(5) + 2;
