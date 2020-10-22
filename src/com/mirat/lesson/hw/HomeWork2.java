@@ -5,20 +5,20 @@ import java.util.Arrays;
 public class HomeWork2 {
 
     public static void main(String[] args) {
-        task_01(3);
-        task_02();
-        task_03();
-        task_04();
-        task_05();
-        task_06(5);
-        task_07();
-        task_08(3);
-        task_09();
-        task_10();
+        task01(3);
+        task02();
+        task03();
+        task04();
+        task05();
+        task06(5);
+        task07();
+        task08(3);
+        task09();
+        task10();
     }
 
     //Task_01
-    public static void task_01(int k) {
+    public static void task01(int k) {
         System.out.println("Task_01:");
         int[] set = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int count = 0;
@@ -32,7 +32,7 @@ public class HomeWork2 {
     }
 
     //Task_02
-    public static void task_02() {
+    public static void task02() {
         System.out.println("Task_02:");
         int[] set = {1, 2, 0, 4, 5, 0, 7, 0, 0};
         int arrayLength = 0;
@@ -53,7 +53,7 @@ public class HomeWork2 {
     }
 
     //Task_03
-    public static void task_03() {
+    public static void task03() {
         System.out.println("Task_03:");
         int[] set = {1, 2, 3, 4, 6, 7, 8, 9};
         boolean flag = false;
@@ -70,7 +70,7 @@ public class HomeWork2 {
     }
 
     //Task_04
-    public static void task_04() {
+    public static void task04() {
         System.out.println("Task_04:");
         int[] set = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int arrayLength = 0;
@@ -95,7 +95,7 @@ public class HomeWork2 {
     }
 
     //Task_05
-    public static void task_05() {
+    public static void task05() {
         System.out.println("Task_05:");
         int[] set = {200, 2, 3, 4, 5, 600, 7, 8, 9, 100};
         int arrayLength = set[0];
@@ -109,7 +109,7 @@ public class HomeWork2 {
     }
 
     //Task_06
-    public static void task_06(int z) {
+    public static void task06(int z) {
         System.out.println("Task_06:");
         int[] set = {11,2,3,4,5,6,7,8,9,10};
         int count = 0;
@@ -125,7 +125,7 @@ public class HomeWork2 {
     }
 
     //Task_07
-    public static void task_07() {
+    public static void task07() {
         System.out.println("Task_07:");
         int[] set = {1,2,-3,4,50,6,78,8,9,10};
         int minIndex = 0;
@@ -150,7 +150,7 @@ public class HomeWork2 {
     }
 
     //Task_08
-    public static void task_08(int i) {
+    public static void task08(int i) {
         System.out.println("Task_08:");
         int[] set = {1,2,-3,4,50,6,78,8,9,10};
         for (int number : set) {
@@ -162,7 +162,7 @@ public class HomeWork2 {
     }
 
     //Task_09
-    public static void task_09() {
+    public static void task09() {
         System.out.println("Task_09:");
         int[] set = {1,2,-3,4,50,-6,78,0,8,9,10,0};
         int countPositive = 0;
@@ -186,7 +186,7 @@ public class HomeWork2 {
     }
 
     //Task_10
-    public static void task_10() {
+    public static void task10() {
         System.out.println("Task_10:");
         int[] set = {2,1,5,4,3,1,4,3,2,8};
         int value = set.length - 1;
